@@ -52,10 +52,10 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
   return false;
 }
 
-// release alt tab if time elapsed > 1250 ms
+// release alt tab if time elapsed > 300 ms
 void matrix_scan_user(void) {
   if (is_alt_tab_active) {
-    if (timer_elapsed(alt_tab_timer) > 1250) {
+    if (timer_elapsed(alt_tab_timer) > 300) {
       unregister_code(U_WIN_SCROLL_MOD);
       is_alt_tab_active = false;
     }
