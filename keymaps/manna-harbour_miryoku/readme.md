@@ -24,6 +24,7 @@ For KB2040
 
     qmk flash -kb klein/kb2040 -km manna-harbour_miryoku -e MIRYOKU_TAP=QWERTY
     qmk compile -kb klein/kb2040 -km manna-harbour_miryoku -e MIRYOKU_TAP=QWERTY
+    qmk compile -kb klein/arcadia -km manna-harbour_miryoku
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 

@@ -1,6 +1,7 @@
 /* added by me */
 #include QMK_KEYBOARD_H
 
+#ifdef ENCODER_ENABLE
 
 // # define U_WIN_SCROLL_MOD KC_LALT   // windows
 # define U_WIN_SCROLL_MOD KC_LCMD   // mac
@@ -61,3 +62,4 @@ void matrix_scan_user(void) {
     }
   }
 }
+#endif
