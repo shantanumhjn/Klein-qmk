@@ -18,6 +18,8 @@ K20,  K21,  K22,  K23,  K24,                    K25,  K26,  K27,  K28,  K29, \
             K32,  K33,  K34, KC_ENT,   KC_MUTE, K35,  K36,  K37 \
 )
 
+#define MASTER_RIGHT
+
 // encoder on the right
 // (will this the index 0?, no looks like the left always get index 0)
 #define ENCODERS_PAD_A_RIGHT { F4 }
